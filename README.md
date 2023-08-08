@@ -28,11 +28,11 @@ These instructions will guide you through setting up the project locally.
    git clone https://github.com/your-username/trustpilot-review-scraper.git
    ```
 
-2. Install the required packages:
+2. Install the required packages (generate the below with pipreqs if not present.):
 
    ```bash
    pip install -r requirements.txt
-   (generate the above with pipreqs if not present.)
+  
    ```
 
 ## Usage
