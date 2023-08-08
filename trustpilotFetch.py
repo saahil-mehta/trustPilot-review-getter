@@ -2,7 +2,7 @@
 # coding: utf-8
 """
 Created on: 2 August, 2023
-Author: Saahil Mehta (saahil.mehta@digitas.com)
+Author: Saahil Mehta (sahil.mehta8520@gmail.com)
 """
 
 # In[2]:
@@ -20,8 +20,6 @@ import pandas as pd
 def fetch_reviews(brand, pages_to_fetch):
     """
     Fetches reviews of the given brand from Trustpilot.com and returns a DataFrame of the fetched reviews.
-
-    Developed by: Saahil Mehta (saahil.mehta@digitas.com)
 
     This function iterates over specified number of pages and scrapes review data. Each review data contains
     fields: 'id', 'itemReviewed', 'author', 'datePublished', 'headline', 'reviewBody', and 'reviewRating'.
