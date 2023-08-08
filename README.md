@@ -32,6 +32,7 @@ These instructions will guide you through setting up the project locally.
 
    ```bash
    pip install -r requirements.txt
+   (generate the above with pipreqs if not present.)
    ```
 
 ## Usage
